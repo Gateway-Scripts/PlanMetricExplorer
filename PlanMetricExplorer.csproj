@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x64</Platform>
-    <ProjectGuid>3c60936a-c850-471f-8d77-8d991579631a</ProjectGuid>
+    <ProjectGuid>{3C60936A-C850-471F-8D77-8D991579631A}</ProjectGuid>
     <OutputType>library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PlanMetricExplorer</RootNamespace>
@@ -55,7 +55,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\plugins\PlanMetricExplorer.cs" />
+    <Compile Include="PlanMetricExplorer.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
